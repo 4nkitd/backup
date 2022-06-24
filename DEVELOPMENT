@@ -1,0 +1,29 @@
+## Install
+
+- Install Go 1.16.x
+
+```
+$ brew install goreleaser
+$ brew install dep
+```
+
+## Get Source
+
+```
+$ git clone https://github.com/4nkitd/gobackup.git
+$ cd gobackup
+$ go get
+```
+
+## Test
+
+```
+$ make test
+```
+
+## Release new version
+
+```
+$ git tag 0.7.3
+$ make release
+```
